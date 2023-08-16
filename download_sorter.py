@@ -2,9 +2,12 @@ import os, shutil, sys, logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from os.path import exists, splitext, join
+
 # Source path
 source = "" # add your download folder path
 
+
+# Destination paths
 doc_dest = source + "/documents/"
 img_dest = source + "/images/"
 aud_des = source + "/audio/"
